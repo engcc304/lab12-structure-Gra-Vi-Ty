@@ -102,6 +102,7 @@ struct Student {
 } typedef S ;
 
 void calculateGrade(float score) {
+    printf( " " ) ;
     if (score >= 85) printf( " A+" ) ;
     else if (score >= 80) printf( " A" ) ;
     else if (score >= 75) printf( " B+" ) ;
@@ -147,7 +148,7 @@ int main() {
         printf( "Student %d:\n" , i ) ;
         printf( "Name: %s %s\n" , info[i].fName , info[i].lName ) ;
         printf( "ID: %s\n" , info[i].ID ) ;
-        printf( "Scores: %d %d %d %d %d\n" , 
+        printf( "Scores: %3d %3d %3d %3d %3d\n" , 
                 info[i].ScoreSub1 , 
                 info[i].ScoreSub2 , 
                 info[i].ScoreSub3 , 

@@ -118,7 +118,7 @@ int main() {
     S info[3] ;
 
     printf( "Enter the details of 3 students :\n" ) ;
-    for (int i = 1 ; i <= 1 ; i++) {
+    for (int i = 1 ; i <= 3 ; i++) {
         printf( "Student %d\n" , i ) ;
 
         printf( "Name:\n" ) ;
@@ -143,7 +143,7 @@ int main() {
         scanf( "\t%d" , &info[i].ScoreSub5 ) ;
     }
 
-    for (int i = 1 ; i <= 1 ; i++ ) {
+    for (int i = 1 ; i <= 3 ; i++ ) {
         printf( "Student %d:\n" , i ) ;
         printf( "Name: %s %s\n" , info[i].fName , info[i].lName ) ;
         printf( "ID: %s\n" , info[i].ID ) ;
